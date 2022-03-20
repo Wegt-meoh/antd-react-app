@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.less'
-import CountUIcontainer from './components/Count'
+import Count from './components/Count'
 import Person from './components/Person'
 
 function App() {
   return (
     <>
-      <CountUIcontainer/>
+      <Count/>
       <Person/>
     </>
   )
